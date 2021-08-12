@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="StyleCV.css">
+<title> Mon CV</title>
+<style>
+#item-1 { background-color: #f3e472; }
+		#item-2 { background-color: orange;  }
+		</style>
+</head>
+<body>
+<h1> MAMOUTOU BAGAYOKO</h1>
+<p><a href="Image/Tigre.jpg">
+<img src="Image/Tigre.jpg" alt="Mon Image" border=2
+width="70"
+height=70"/></a>
+</p>
+<br/>
+<div id="flex-sect">
+<div id=item-1>
+<h2>MES EXPERIENCE</h2>
+
+<ul >
+<li > CERTIFICAT D'APTITUDE PROFESSIONNEL EN COMPTABILITE </li>
+<li> BREVET DE TECHNICIEN EN DEUXIEME PARTIE BT2 EN COMPTABILITE</li>
+<li> DIPLOME UNIVERSITAIRE DE TECHNOLOGIE </li><br/>
+<li> LICENCE PROFESSIONNEL DE CREATION ET GESTION D'ENTREPRISE</li>
+</ul>
+</div>
+<div id=item-2>
+<h2> MES COMPETENCES</h2>
+<ul>
+<li type="square"> EN HTML ET CSS</li>
+<li type="square"> EN JAVA</li>
+<li type="square"> EN ORACLE</li>
+<li type="square"> EN c++</li>
+</ul>
+</div>
+<div id=item-3>
+<h2>MES FORMATIONS</h2>
+
+<ul>
+<li type="circle"> SIX MOIS DE STAGE A LA PERCETION DE KATI </li>
+<li type="circle"> NOS JOURS MAINTENACIER EN IFORMATIQUE</li>
+</ul>
+</div>
+</div>
+<br/><br/><!--
+<button onclick="window.print()">TELECHARGER</button>!-->
+<script type="text/javascript"> 
+var btn = document.createElement("button");
+var t = document.createTextNode("TELECHARGER CV");
+btn.appendChild(t);
+document.body.appendChild(btn);
+btn.addEventListner("click",function(){
+ alert("VOICI MON CV!");});
+</script>
+</body>
+</html>

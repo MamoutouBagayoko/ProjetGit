@@ -1,0 +1,10 @@
+#flex-sect {
+			display: flex;
+			/* Valeur par défaut */
+			border: 1px solid black;
+			justify-content:space-between;
+		}
+		#item-1 { background-color: #f3e472; /* Jaune */ }
+		#item-2 { background-color: orange;  }
+		#item-3 { background-color: #da3c3c; /* Rouge */ }
+		body{background-color:orange;}
